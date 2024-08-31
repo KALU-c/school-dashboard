@@ -19,7 +19,7 @@ const Navbar = () => {
           <Image src="/announcement.png" alt="message" width={20} height={20} />
           <span className="absolute -top-3 -right-3 w-5 h-5 bg-purple-500 text-white flex justify-center items-center rounded-full text-xs">1</span>
         </div>
-        <div className="flex flex-col">
+        <div className="hidden sm:flex sm:flex-col">
           <span className="text-xs leading-3 font-medium">John Doe</span>
           <span className="text-[10px] text-gray-500 text-right">Admin</span>
         </div>
