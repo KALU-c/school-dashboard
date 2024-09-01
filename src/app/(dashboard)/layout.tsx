@@ -11,7 +11,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <Sidebar>
         <Link href="/" className="flex justify-center items-center lg:justify-start gap-2">
           <Image src="/logo.png" alt="Logo" width={32} height={32} />
-          <span className="hidden lg:block">RK-school</span>
+          <span className="hidden lg:block font-bold text-xl">RK-school</span>
         </Link>
         <Menu />
       </Sidebar>

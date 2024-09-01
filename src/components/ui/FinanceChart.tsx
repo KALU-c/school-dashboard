@@ -80,15 +80,15 @@ const FinanceChart = () => {
           height={300}
           data={data}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke='#ddd'/>
-          <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: "#d1d5db" }}/>
-          <YAxis axisLine={false} tickLine={false} tick={{ fill: "#d1d5db" }}/>
+          <CartesianGrid strokeDasharray="3 3" stroke='#ddd' />
+          <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: "#d1d5db" }} />
+          <YAxis axisLine={false} tickLine={false} tick={{ fill: "#d1d5db" }} />
           <Tooltip
             contentStyle={{ borderRadius: "10px", borderColor: "lightgray" }}
           />
           <Legend align='center' verticalAlign='top' wrapperStyle={{ paddingTop: "20px", paddingBottom: "40px" }} />
           <Line type="monotone" dataKey="income" stroke="#C3EBFA" strokeWidth={4} />
-          <Line type="monotone" dataKey="expense" stroke="#CFCEFF" strokeWidth={4}/>
+          <Line type="monotone" dataKey="expense" stroke="#CFCEFF" strokeWidth={4} />
         </LineChart>
       </ResponsiveContainer>
     </div>
