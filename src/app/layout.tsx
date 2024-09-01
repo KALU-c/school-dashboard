@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "School Management",
   description: "School Management System",
   icons: {
-    icon: "singleLesson.png"
+    icon: "/singleLesson.png"
   }
 };
 
