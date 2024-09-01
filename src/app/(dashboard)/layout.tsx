@@ -7,7 +7,7 @@ import Link from "next/link"
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="h-screen flex">
+    <div className="h-full flex">
       <Sidebar>
         <Link href="/" className="flex justify-center items-center lg:justify-start gap-2">
           <Image src="/logo.png" alt="Logo" width={32} height={32} />
